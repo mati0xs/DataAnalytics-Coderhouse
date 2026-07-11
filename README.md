@@ -1,4 +1,4 @@
-# Prácticas SQL - Coderhouse
+# Prácticas Data Analytics - Coderhouse
 
 Este repositorio contiene las prácticas y ejercicios desarrollados durante el curso de **Data Analytics de Coderhouse**, utilizando **Microsoft SQL Server** y **SQL Server Management Studio (SSMS)**.
 
