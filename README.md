@@ -34,4 +34,4 @@ practicas-coderhouse/
 
 ---
 
-Repositorio desarrollado con fines educativos como parte del curso de SQL de Coderhouse.
+Repositorio desarrollado con fines educativos como parte del curso de Data Analytics de Coderhouse.
