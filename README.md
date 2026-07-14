@@ -17,6 +17,7 @@ practicas-coderhouse/
 ├── modulo-3/
 │   ├── ddl_dml_bodega.sql
 │   ├── modulo3_unidad2_diseno.sql
+│   ├── ventas_tech_db.sql
 │   └── README.md
 │
 └── README.md
@@ -24,13 +25,19 @@ practicas-coderhouse/
 
 ## Contenido
 
-### Módulo 3
+### Módulo 3 - Fundamentos de SQL
 
-- Diseño de estructuras de bases de datos.
-- Creación de bases de datos y tablas (DDL).
-- Inserción, actualización y consulta de datos (DML).
-- Gestión de inventario mediante SQL Server.
-- Buenas prácticas de documentación y modelado relacional.
+Durante este módulo se trabajó sobre los conceptos fundamentales del lenguaje SQL y el diseño de bases de datos relacionales.
+
+Los ejercicios desarrollados incluyen:
+
+- Diseño de tablas utilizando DDL (`CREATE DATABASE`, `CREATE TABLE`).
+- Selección de tipos de datos adecuados.
+- Definición de claves primarias y foráneas.
+- Restricciones (`PRIMARY KEY`, `FOREIGN KEY`, `NOT NULL`, `DEFAULT`, `UNIQUE`).
+- Inserción y actualización de datos mediante DML (`INSERT`, `UPDATE`).
+- Validación de la carga de datos utilizando consultas `SELECT`.
+- Diseño e implementación de una base de datos relacional completa para un sistema de ventas (**Ventas_Tech_DB**).
 
 ---
 
