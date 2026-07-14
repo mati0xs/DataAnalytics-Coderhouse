@@ -1,49 +1,81 @@
-# Módulo 3 - Diseño y Manipulación de Datos
+# Módulo 3 - Fundamentos de SQL
 
-Esta carpeta reúne las prácticas correspondientes al **Módulo 3** del curso de Data Analytics de Coderhouse.
+Esta carpeta contiene las prácticas y el entregable final correspondientes al **Módulo 3** del curso de Data Analytics de Coderhouse.
 
-## Archivos
+En este módulo se abordaron los conceptos esenciales para el diseño e implementación de bases de datos relacionales utilizando Microsoft SQL Server.
+
+## Contenido
 
 ### 📄 modulo3_unidad2_diseno.sql
 
-Ejercicio introductorio de diseño de bases de datos.
-
-Contiene:
-
-- Creación de tablas.
-- Selección de tipos de datos adecuados.
-- Definición de claves primarias.
-- Documentación mediante comentarios en SQL.
+Ejercicio introductorio de diseño de tablas.
 
 Conceptos trabajados:
 
-- DDL (`CREATE TABLE`)
-- Tipos de datos (`INT`, `VARCHAR`, `DECIMAL`, `DATE`, `BIT`)
-- Claves primarias (`PRIMARY KEY`)
-- Buenas prácticas de diseño
+- Creación de tablas (`CREATE TABLE`).
+- Selección de tipos de datos.
+- Claves primarias (`PRIMARY KEY`).
+- Buenas prácticas de documentación mediante comentarios.
 
 ---
 
 ### 📄 ddl_dml_bodega.sql
 
-Ejercicio práctico sobre la base de datos **BodegaTech**.
+Ejercicio práctico basado en la base de datos **BodegaTech**.
 
-Contiene:
+Incluye:
 
-- Creación de una base de datos.
+- Creación de la base de datos.
 - Creación de la tabla `inventario`.
-- Inserción de registros mediante `INSERT`.
-- Actualización del stock mediante `UPDATE`.
-- Consultas con `SELECT`.
+- Inserción de registros (`INSERT`).
+- Actualización de stock (`UPDATE`).
+- Consultas de validación (`SELECT`).
 
 Conceptos trabajados:
 
-- DDL (`CREATE DATABASE`, `CREATE TABLE`)
-- DML (`INSERT`, `UPDATE`, `SELECT`)
-- Identificadores autoincrementales (`IDENTITY`)
-- Tipos de datos
-- Gestión básica de inventario
+- DDL (Data Definition Language).
+- DML (Data Manipulation Language).
+- Tipos de datos.
+- Identificadores.
+- Gestión básica de inventario.
 
 ---
 
-Todos los ejercicios fueron desarrollados utilizando **Microsoft SQL Server Management Studio (SSMS)**.
+### 📄 ventas_tech_db.sql
+
+Pre-entrega evaluable del Módulo 3.
+
+Desarrollo completo de la base de datos **Ventas_Tech_DB**, incluyendo:
+
+- Creación de la base de datos.
+- Eliminación ordenada de tablas (`DROP TABLE IF EXISTS`).
+- Creación de las tablas:
+  - `categorias`
+  - `clientes`
+  - `productos`
+  - `ventas`
+- Definición de restricciones:
+  - `PRIMARY KEY`
+  - `FOREIGN KEY`
+  - `NOT NULL`
+  - `UNIQUE`
+  - `DEFAULT`
+- Carga inicial de datos mediante `INSERT`.
+- Validación de la integridad de la información mediante consultas `SELECT`.
+
+## Competencias desarrolladas
+
+Al finalizar este módulo se trabajó sobre:
+
+- Modelado relacional.
+- Integridad referencial.
+- Diseño de bases de datos.
+- Lenguaje DDL.
+- Lenguaje DML.
+- Restricciones e integridad de datos.
+- Organización y documentación de scripts SQL.
+- Buenas prácticas en Microsoft SQL Server.
+
+---
+
+Todos los ejercicios fueron desarrollados utilizando **Microsoft SQL Server Management Studio (SSMS)** como entorno de desarrollo.
