@@ -1,84 +1,104 @@
-# Prácticas de Data Analytics - Coderhouse
+# 📊 Prácticas – Data Analytics | Coderhouse
 
-Este repositorio reúne las prácticas, ejercicios y pre-entregas desarrolladas durante el curso de **Data Analytics de Coderhouse**, correspondientes a los módulos de SQL.
+Repositorio con las prácticas y pre-entregas desarrolladas durante el curso **Data Analytics** de Coderhouse.
 
-Los ejercicios fueron desarrollados utilizando **Microsoft SQL Server** y **SQL Server Management Studio (SSMS)**, aplicando conceptos de modelado relacional, lenguaje SQL y análisis de datos que posteriormente serán utilizados en Power BI.
+A lo largo del curso se trabaja sobre el proyecto integrador **RetailPro**, aplicando conceptos de modelado de datos, SQL y análisis de información para la construcción de dashboards en Power BI.
 
 ---
 
-## Tecnologías utilizadas
+## 📁 Estructura del repositorio
+
+```text
+practicas-coderhouse/
+│
+├── README.md
+│
+├── modulo-3/
+│   ├── README.md
+│   ├── ddl_dml_bodega.sql
+│   └── ventas_tech_db.sql
+│
+├── modulo-4/
+│   ├── README.md
+│   └── m4_consultas_negocio.sql
+│
+└── modulo-5/
+    ├── README.md
+    └── m5_consultas_joins.sql
+```
+
+---
+
+## 📚 Contenido
+
+### 📦 Módulo 3 – Diseño e implementación de bases de datos
+
+Desarrollo de bases de datos relacionales utilizando SQL Server.
+
+**Temas trabajados:**
+
+- Creación de bases de datos.
+- Definición de tablas (DDL).
+- Restricciones (`PRIMARY KEY`, `FOREIGN KEY`, `NOT NULL`, `DEFAULT`, `UNIQUE`).
+- Inserción y actualización de datos (DML).
+- Desarrollo de la base de datos **Ventas_Tech_DB**, utilizada durante el resto del curso.
+
+**Archivos:**
+
+- `ddl_dml_bodega.sql`
+- `ventas_tech_db.sql`
+
+---
+
+### 📊 Módulo 4 – Consultas SQL de negocio
+
+Construcción de consultas para responder preguntas de negocio utilizando la tabla **ventas**.
+
+**Conceptos aplicados:**
+
+- Funciones de agregación.
+- `GROUP BY`
+- `HAVING`
+- `CASE WHEN`
+- CTE (Common Table Expressions).
+- Rankings y métricas comerciales.
+
+**Archivo:**
+
+- `m4_consultas_negocio.sql`
+
+---
+
+### 🔗 Módulo 5 – Consultas con JOIN
+
+Integración de múltiples tablas para enriquecer el análisis de datos.
+
+**Conceptos aplicados:**
+
+- `INNER JOIN`
+- `LEFT JOIN`
+- `UNION ALL`
+- `GROUP BY`
+- `ORDER BY`
+- Cálculo de métricas de negocio.
+
+**Archivo:**
+
+- `m5_consultas_joins.sql`
+
+---
+
+## 🛠️ Tecnologías utilizadas
 
 - Microsoft SQL Server
 - SQL Server Management Studio (SSMS)
-- SQL
 - Git
 - GitHub
 
 ---
 
-## Estructura del repositorio
+## 🎯 Objetivo del repositorio
 
-```
-practicas-coderhouse/
-│
-├── modulo-3/
-│   ├── ddl_dml_bodega.sql
-│   ├── modulo3_unidad2_diseno.sql
-│   ├── ventas_tech_db.sql
-│   └── README.md
-│
-├── modulo-4/
-│   ├── m4_consultas_negocio.sql
-│   └── README.md
-│
-└── README.md
-```
+Documentar el progreso realizado durante el curso **Data Analytics** mediante la resolución de ejercicios y pre-entregas, manteniendo un repositorio organizado y con buenas prácticas de documentación.
 
----
-
-## Contenido
-
-### 📁 Módulo 3 - Diseño e implementación de bases de datos
-
-Durante este módulo se trabajó sobre el diseño e implementación de una base de datos relacional.
-
-Conceptos aplicados:
-
-- Creación de bases de datos (`CREATE DATABASE`).
-- Creación de tablas (`CREATE TABLE`).
-- Selección de tipos de datos.
-- Restricciones (`PRIMARY KEY`, `FOREIGN KEY`, `NOT NULL`, `DEFAULT`, `UNIQUE`).
-- Inserción y actualización de datos (`INSERT`, `UPDATE`).
-- Integridad referencial.
-- Modelado relacional.
-- Desarrollo de la base de datos **Ventas_Tech_DB**.
-
----
-
-### 📁 Módulo 4 - Consultas SQL de negocio
-
-En este módulo se desarrollaron consultas SQL orientadas al análisis de información comercial utilizando la base de datos creada previamente.
-
-Conceptos aplicados:
-
-- Consultas `SELECT`.
-- Funciones de agregación (`SUM`, `AVG`, `COUNT`).
-- `GROUP BY`.
-- `HAVING`.
-- `ORDER BY`.
-- `TOP`.
-- Expresiones condicionales con `CASE`.
-- Common Table Expressions (`WITH`).
-- Obtención de métricas para análisis de negocio.
-
----
-
-## Objetivo del repositorio
-
-Este repositorio documenta el trabajo realizado durante los módulos de SQL del curso de **Data Analytics de Coderhouse**.
-
-A medida que avance el curso se incorporarán nuevos ejercicios relacionados con consultas avanzadas, cruces de información (`JOIN`), transformación de datos e integración con Power BI para la construcción de dashboards y análisis de negocio.
-
----
-
-Repositorio desarrollado con fines educativos como parte del curso de **Data Analytics de Coderhouse**.
+El repositorio se actualiza de forma progresiva a medida que se completan nuevos módulos y se incorporan nuevas herramientas al proyecto RetailPro.
