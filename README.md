@@ -1,243 +1,186 @@
-# RetailPro - Data Analytics
+# 📊 Prácticas y Proyecto de Data Analytics — Coderhouse
 
-## Descripción
+Repositorio de prácticas, ejercicios y entregables realizados durante el curso de **Data Analytics de Coderhouse**.
 
-Este repositorio contiene el desarrollo del proyecto integrador de **Data Analytics de Coderhouse**, basado en el caso práctico de una empresa ficticia de retail tecnológico llamada **TechStore**.
-
-El proyecto aborda distintas etapas del proceso de análisis de datos, desde el diseño y creación de una base de datos SQL hasta la limpieza, transformación y modelado de los datos en Power BI.
+El objetivo del repositorio es documentar el proceso de aprendizaje y construcción de un proyecto de análisis de datos, desde la creación y consulta de bases de datos SQL hasta la transformación, modelado y visualización de información en Power BI.
 
 ---
 
-## Objetivo
+## 🗂️ Estructura del repositorio
 
-Construir una solución de análisis de datos que permita transformar datos operativos en información útil para la toma de decisiones.
-
-El proyecto incluye:
-
-- Diseño de bases de datos.
-- Creación y carga de tablas mediante SQL.
-- Consultas SQL de negocio.
-- Limpieza y transformación de datos.
-- Procesos ETL mediante Power Query.
-- Modelado de datos en Power BI.
-- Desarrollo de métricas y visualizaciones.
-- Documentación técnica del proceso.
-
----
-
-## Tecnologías utilizadas
-
-- SQL Server
-- SQL
-- Power BI Desktop
-- Power Query
-- Lenguaje M
-- DAX
-- Excel
-- GitHub
-
----
-
-## Estructura del repositorio
-
-RetailPro/
-
-├── modulo-1/
-
-├── modulo-2/
-
-├── modulo-3/
-
-│   ├── ddl_dml_bodega.sql
-
-│   ├── modulo3_unidad2_diseno.sql
-
+```text
+practicas-coderhouse/
+│
+├── modulo2/
+│   └── ...
+│
+├── modulo3/
+│   └── ...
+│
+├── modulo4/
+│   └── ...
+│
+├── modulo5/
+│   └── ...
+│
+├── modulo6/
+│   └── ...
+│
+├── modulo8/
+│   ├── Gomez_Matias_Checkpoint2.pbix
 │   └── README.md
-
-├── modulo-4/
-
-│   ├── m4_consultas_negocio.sql
-
-│   └── README.md
-
-├── modulo-5/
-
-│   ├── ...
-
-│   └── README.md
-
-├── modulo-6/
-
-│   ├── Pipeline_ETL_Gomez_Matias.pbix
-
-│   ├── README.md
-
-│   └── capturas/
-
+│
 └── README.md
+```
+
+> La estructura se irá actualizando a medida que avance el proyecto integrador.
 
 ---
 
-# Módulos realizados
+## 🚀 Proyecto RetailPro
 
-## Módulo 3 - Diseño y construcción de la base de datos
+A lo largo del curso se trabaja sobre un proyecto de análisis de datos orientado al negocio, utilizando un conjunto de datos de ventas.
 
-En este módulo se trabajó sobre el diseño y creación de la base de datos `Ventas_Tech_DB`.
+El flujo de trabajo desarrollado incluye:
 
-Se desarrollaron:
+**SQL → ETL → Power Query → Modelo de datos → DAX → Power BI → Dashboard**
 
-- Tablas.
-- Claves primarias.
-- Claves foráneas.
-- Restricciones.
-- Inserción de datos.
-- Diseño de la estructura relacional.
+### Tecnologías utilizadas
 
-También se realizaron ejercicios de DDL, DML y diseño de tablas.
-
-**Resultado:** base de datos `Ventas_Tech_DB` creada y cargada correctamente.
+* **SQL Server**
+* **SQL**
+* **Power Query / lenguaje M**
+* **DAX**
+* **Power BI**
+* **GitHub**
 
 ---
 
-## Módulo 4 - Consultas SQL de negocio
+## 📚 Módulos
 
-En este módulo se desarrollaron consultas SQL para obtener métricas relevantes del negocio a partir de `Ventas_Tech_DB`.
+### Módulo 2 — Diseño de bases de datos
+
+Prácticas iniciales de diseño y creación de estructuras de bases de datos utilizando SQL.
 
 Se trabajó con:
 
-- `SELECT`
-- `JOIN`
-- `GROUP BY`
-- Funciones de agregación.
-- Métricas de ventas.
-- Facturación.
-- Análisis de clientes.
-- Comparaciones de resultados.
-
-El objetivo fue utilizar SQL para extraer información útil para el análisis comercial.
+* `CREATE DATABASE`
+* `CREATE TABLE`
+* definición de columnas
+* tipos de datos
+* claves y relaciones básicas
 
 ---
 
-## Módulo 5 - Combinación y limpieza de datos con SQL
+### Módulo 3 — DDL, constraints e INSERT
 
-En este módulo se trabajó con consultas más avanzadas para combinar información y detectar registros faltantes.
+Construcción de la base de datos **Ventas_Tech_DB**.
 
-Se aplicaron:
+Se trabajó con:
 
-- `INNER JOIN`
-- `LEFT JOIN`
-- `UNION ALL`
-- `GROUP BY`
-- Manejo de valores `NULL`.
-- Identificación de clientes y productos sin ventas.
-
-También se documentaron las consultas y decisiones realizadas.
+* DDL
+* claves primarias
+* claves foráneas
+* constraints
+* inserción de datos
+* estructura relacional
 
 ---
 
-## Módulo 6 - Pipeline ETL con Power Query y M
+### Módulo 4 — Consultas SQL de negocio
 
-En este checkpoint se construyó un pipeline ETL utilizando Power BI, Power Query y lenguaje M.
+Desarrollo de consultas orientadas a responder preguntas de negocio.
 
-Se trabajó con cinco tablas:
+Se trabajó con:
 
-- `Dim_Clientes`
-- `Dim_Territorios`
-- `Dim_Productos`
-- `Dim_Categorias`
-- `Fact_Ventas`
+* agregaciones
+* `GROUP BY`
+* consultas sobre ventas
+* análisis de clientes
+* facturación mensual
+* métricas de negocio
 
-Las principales transformaciones incluyeron:
-
-- Eliminación de registros completamente vacíos.
-- Eliminación de duplicados.
-- Tratamiento de valores nulos.
-- Corrección de tipos de datos.
-- Estandarización de nombres.
-- Merge entre clientes y territorios.
-- Merge entre ventas y productos.
-- Documentación mediante comentarios en lenguaje M.
-- Creación de relaciones 1:N en el modelo de Power BI.
-
-El archivo final de Power BI es:
-
-`Pipeline_ETL_Gomez_Matias.pbix`
-
-La documentación específica y las evidencias del checkpoint se encuentran en `modulo-6/README.md`.
+**Pre-entrega aprobada: 90%.**
 
 ---
 
-# Flujo general del proyecto
+### Módulo 5 — JOINs y combinación de datos
 
-Datos operativos
+Prácticas de integración y combinación de información mediante SQL.
 
-↓
+Se trabajó con:
 
-Diseño de base de datos
+* `INNER JOIN`
+* `LEFT JOIN`
+* `UNION ALL`
+* tratamiento de valores `NULL`
+* construcción de consultas sobre múltiples tablas
 
-↓
-
-SQL - DDL / DML
-
-↓
-
-Consultas de negocio
-
-↓
-
-Combinación y limpieza de datos
-
-↓
-
-Power Query / Lenguaje M
-
-↓
-
-Modelo de datos en Power BI
-
-↓
-
-Medidas DAX
-
-↓
-
-Dashboard y análisis
-
-Cada módulo agrega una nueva etapa al proceso de construcción de la solución analítica.
+**Pre-entrega aprobada: 91%.**
 
 ---
 
-# Estado del proyecto
+### Módulo 6 — Pipeline ETL con Power Query
 
-| Etapa | Estado |
-|---|---|
-| Diseño de base de datos | Completado |
-| Creación de `Ventas_Tech_DB` | Completado |
-| Consultas SQL de negocio | Completado |
-| Combinación y limpieza con SQL | Completado |
-| Pipeline ETL con Power Query | Completado |
-| Modelo base en Power BI | Completado |
-| Medidas DAX | Próximamente |
-| Dashboard final | Próximamente |
+Conexión de la base de datos **Ventas_Tech_DB** con Power BI y preparación de los datos mediante Power Query.
 
----
+El trabajo constituye la base utilizada posteriormente para el modelado analítico.
 
-# Próximas etapas
+Se trabajó con:
 
-El siguiente paso del proyecto será continuar con el modelo analítico en Power BI, incorporando:
-
-- Modelo estrella.
-- Tabla calendario.
-- Relaciones y dimensiones.
-- Medidas DAX.
-- Indicadores clave de negocio.
-- Visualizaciones.
-- Dashboard final.
+* conexión SQL Server → Power BI
+* Power Query
+* transformaciones de datos
+* limpieza
+* tipos de datos
+* preparación de tablas para el modelo analítico
 
 ---
 
-## Autor
+### Módulo 8 — Modelo de datos y medidas DAX
 
-**Matias Gomez**
+Construcción del modelo analítico sobre el dataset de RetailPro.
 
-Proyecto realizado como parte de la formación en **Data Analytics - Coderhouse**.
+En este checkpoint se incorporaron:
+
+* modelo dimensional en estrella
+* relaciones entre dimensiones y tabla de hechos
+* tabla calendario
+* tabla centralizada de medidas
+* medidas DAX
+* inteligencia temporal
+* validación mediante matriz
+
+**Entregable:** `Gomez_Matias_Checkpoint2.pbix`
+
+Ver documentación específica en [`modulo8/`](./modulo8/).
+
+---
+
+## 🎯 Objetivo del proyecto
+
+Construir progresivamente un modelo de datos que permita transformar información transaccional en indicadores útiles para la toma de decisiones.
+
+El proyecto integra conocimientos de:
+
+1. Diseño de bases de datos.
+2. SQL y consultas de negocio.
+3. Procesos ETL.
+4. Modelado dimensional.
+5. DAX.
+6. Visualización y análisis en Power BI.
+
+---
+
+## 📈 Próximos pasos
+
+El modelo desarrollado en los checkpoints constituye la base para el **proyecto integrador final**, donde se utilizarán las tablas, relaciones y medidas construidas para responder preguntas de negocio y desarrollar dashboards analíticos en Power BI.
+
+---
+
+## 👤 Autor
+
+**Matias Gomez Galeano**
+
+
+Repositorio desarrollado como parte del curso de **Data Analytics — Coderhouse**.
